@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://slimbob413.github.io/replot-news-hub/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://slimbob413.github.io/replot-news-hub/politics.html</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://slimbob413.github.io/replot-news-hub/sports.html</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://slimbob413.github.io/replot-news-hub/business.html</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
+  <url><loc>https://slimbob413.github.io/replot-news-hub/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://slimbob413.github.io/replot-news-hub/politics.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://slimbob413.github.io/replot-news-hub/business.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://slimbob413.github.io/replot-news-hub/sports.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://slimbob413.github.io/replot-news-hub/technology.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://slimbob413.github.io/replot-news-hub/entertainment.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
 </urlset>
