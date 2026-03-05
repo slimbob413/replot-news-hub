@@ -3,23 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Replot News - Nigerian News Rewritten for Clarity</title>
-  <meta name="description" content="Replot News delivers AI-powered, fact-grounded Nigerian news coverage across politics, business, technology, sports, and entertainment.">
-  <link rel="canonical" href="https://replot.news">
+  <title>Replot News Hub - Nigerian News Rewritten for Clarity</title>
+  <meta name="description" content="Replot News delivers AI-powered, fact-grounded Nigerian news coverage across politics, business, technology, sports, and entertainment. Updated throughout the day.">
+  <meta property="og:title" content="Replot News Hub">
+  <meta property="og:description" content="Nigerian news rewritten for clarity. AI-powered, fact-grounded stories.">
+  <meta property="og:url" content="https://slimbob413.github.io/replot-news-hub/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://slimbob413.github.io/replot-news-hub/">
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #333; }
-    h1 { color: #C05621; }
+    body { font-family: Georgia, 'Times New Roman', serif; max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; line-height: 1.7; color: #1a1a1a; background: #fafafa; }
+    h1 { color: #C05621; font-size: 2rem; border-bottom: 3px solid #C05621; padding-bottom: 0.5rem; }
+    h2 { color: #333; margin-top: 2rem; font-size: 1.4rem; }
     a { color: #C05621; }
-    .categories { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
-    .categories a { background: #f5f5f5; padding: 0.5rem 1rem; border-radius: 4px; text-decoration: none; }
-    .categories a:hover { background: #C05621; color: white; }
+    a:hover { color: #9c4019; }
+    .hero { background: #fff; padding: 1.5rem; border-radius: 8px; margin: 1.5rem 0; border-left: 4px solid #C05621; }
+    .categories { display: flex; gap: 0.8rem; flex-wrap: wrap; margin: 1rem 0; }
+    .categories a { background: #fff; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; border: 1px solid #ddd; font-weight: 500; }
+    .categories a:hover { background: #C05621; color: white; border-color: #C05621; }
+    .articles { list-style: none; padding: 0; }
+    .articles li { background: #fff; padding: 1rem 1.2rem; margin: 0.5rem 0; border-radius: 6px; border: 1px solid #eee; }
+    .articles li a { text-decoration: none; font-weight: 500; }
+    .articles li small { display: block; color: #666; margin-top: 0.3rem; font-size: 0.9rem; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ddd; color: #666; font-size: 0.9rem; }
   </style>
 </head>
 <body>
-  <h1><a href="https://replot.news">Replot News</a></h1>
-  <p><strong>News, Rewritten for Clarity.</strong> AI-powered, fact-grounded Nigerian news coverage updated throughout the day.</p>
-  
-  <h2>Browse by Category</h2>
+  <h1><a href="https://replot.news" style="text-decoration:none">Replot News</a></h1>
+
+  <div class="hero">
+    <p><strong>News, Rewritten for Clarity.</strong> <a href="https://replot.news">Replot News</a> is Nigeria's AI-powered news platform that rewrites breaking stories for maximum clarity and readability. Every article is fact-grounded and sourced from multiple credible outlets.</p>
+  </div>
+
+  <h2>News Categories</h2>
   <div class="categories">
     <a href="https://replot.news/category/politics">Politics</a>
     <a href="https://replot.news/category/business">Business</a>
@@ -27,29 +42,71 @@
     <a href="https://replot.news/category/sports">Sports</a>
     <a href="https://replot.news/category/entertainment">Entertainment</a>
   </div>
-  
-  <h2>Features</h2>
-  <ul>
-    <li><a href="https://replot.news">Homepage - Latest Stories</a></li>
-    <li><a href="https://replot.news/trending">Trending Topics</a></li>
-    <li><a href="https://replot.news/feed.xml">RSS Feed</a></li>
-    <li><a href="https://replot.news/sitemap.xml">Sitemap</a></li>
-  </ul>
-  
-  <h2>About</h2>
-  <p><a href="https://replot.news">Replot News</a> is a Nigerian news platform that uses AI to rewrite breaking news stories for maximum clarity and readability. Every article is fact-grounded and sourced from multiple credible outlets. Coverage spans politics, business, technology, sports, and entertainment.</p>
-  
-  <h2>Latest Coverage Areas</h2>
-  <ul>
-    <li><a href="https://replot.news/category/politics">Nigerian Politics News</a> - Government, policy, and political developments</li>
-    <li><a href="https://replot.news/category/business">Nigerian Business News</a> - Economy, markets, and corporate updates</li>
-    <li><a href="https://replot.news/category/technology">Nigerian Technology News</a> - Tech innovation, startups, and digital economy</li>
-    <li><a href="https://replot.news/category/sports">Nigerian Sports News</a> - Football, athletics, and sporting events</li>
-    <li><a href="https://replot.news/category/entertainment">Nigerian Entertainment News</a> - Nollywood, music, and culture</li>
+
+  <h2>Featured Articles</h2>
+  <ul class="articles">
+    <li>
+      <a href="https://replot.news/articles/tinubu-s-executive-order-9-reshapes-oil-revenue-as-security-retirement-traditions-face-scrutiny">Tinubu's Executive Order 9 Reshapes Oil Revenue as Security Retirement Traditions Face Scrutiny</a>
+      <small>Politics - Analysis of fiscal and security policy shifts</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/naira-records-first-annual-gain-in-13-years-cbn-reforms-boost-reserves-to-50-45-billion">Naira Records First Annual Gain in 13 Years; CBN Reforms Boost Reserves to $50.45 Billion</a>
+      <small>Business - Nigerian economy and forex market update</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/arsenal-seize-control-of-title-race-with-brighton-win-as-city-stumble">Arsenal Seize Control of Title Race With Brighton Win as City Stumble</a>
+      <small>Sports - Premier League title race coverage</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/fec-approves-digital-postcode-system-a-new-era-for-nigerian-logistics-and-addressing">FEC Approves Digital Postcode System: A New Era for Nigerian Logistics</a>
+      <small>Technology - Government digital infrastructure initiative</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/tinubu-swears-in-new-igp-renews-nipss-dg-and-launches-digital-postcode-a-triple-executive-action">Tinubu Swears in New IGP, Renews NIPSS DG, and Launches Digital Postcode</a>
+      <small>Politics - Executive appointments and policy actions</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/nigeria-s-economic-crossroads-reserves-hit-50-45bn-as-power-reform-advances-amid-afcfta-concerns">Nigeria's Economic Crossroads: Reserves Hit $50.45BN as Power Reform Advances</a>
+      <small>Business - Economic analysis and reform updates</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/apc-sweeps-fct-polls-as-ndlea-nabs-fugitive-kingpin">APC Sweeps FCT Polls as NDLEA Nabs Fugitive Kingpin</a>
+      <small>Politics - Election results and law enforcement</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/high-stakes-showdown-128-nigerian-boxers-battle-for-just-10-commonwealth-games-slots">High Stakes Showdown: 128 Nigerian Boxers Battle for Just 10 Commonwealth Games Slots</a>
+      <small>Sports - Boxing trials and Commonwealth Games qualification</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/nigeria-aims-for-manufacturing-to-contribute-25-to-gdp-by-2035-analysis-of-the-ambitious-plan">Nigeria Aims for Manufacturing to Contribute 25% to GDP by 2035</a>
+      <small>Business - Industrial development and economic growth</small>
+    </li>
+    <li>
+      <a href="https://replot.news/articles/senate-moves-to-strengthen-cbn-s-fintech-oversight-targets-ponzi-schemes">Senate Moves to Strengthen CBN's Fintech Oversight, Targets Ponzi Schemes</a>
+      <small>Technology - Financial regulation and fintech policy</small>
+    </li>
   </ul>
 
+  <h2>Quick Links</h2>
+  <ul>
+    <li><a href="https://replot.news">Replot News Homepage</a> - Latest breaking stories</li>
+    <li><a href="https://replot.news/trending">Trending Topics</a> - What Nigerians are discussing now</li>
+    <li><a href="https://replot.news/feed.xml">RSS Feed</a> - Subscribe to updates</li>
+    <li><a href="https://replot.news/sitemap.xml">Sitemap</a> - Full site index</li>
+    <li><a href="https://replot.news/news-sitemap.xml">News Sitemap</a> - Google News sitemap</li>
+  </ul>
+
+  <h2>About Replot News</h2>
+  <p><a href="https://replot.news">Replot News</a> is an innovative Nigerian news platform launched in 2025. Using advanced AI technology, Replot News rewrites breaking news stories from multiple credible sources for clarity and accuracy. The platform covers Nigerian politics, business, technology, sports, and entertainment, providing readers with fact-grounded journalism updated throughout the day.</p>
+
+  <p>Key features of <a href="https://replot.news">Replot News</a> include AI-powered article rewriting for clarity, fact-checking and source verification, comprehensive category coverage, trending topic analysis from social media and search trends, and an SEO-optimized reading experience.</p>
+
+  <h2>Nigerian News Coverage</h2>
+  <p><a href="https://replot.news/category/politics">Nigerian politics news</a> on Replot News covers government policy, legislative developments, and political analysis. The <a href="https://replot.news/category/business">business section</a> tracks the Nigerian economy, stock market, and corporate developments. For <a href="https://replot.news/category/technology">technology news</a>, the platform covers Nigeria's growing tech ecosystem, startups, and digital policy. <a href="https://replot.news/category/sports">Sports coverage</a> includes Nigerian football, Premier League updates, and major sporting events. The <a href="https://replot.news/category/entertainment">entertainment section</a> covers Nollywood, Nigerian music, and cultural events.</p>
+
   <footer>
-    <p>Visit <a href="https://replot.news">replot.news</a> for the latest Nigerian news.</p>
+    <p>This is a community resource page. Visit <a href="https://replot.news">replot.news</a> for the latest Nigerian news, rewritten for clarity.</p>
+    <p>Last updated: March 2026</p>
   </footer>
 </body>
 </html>
