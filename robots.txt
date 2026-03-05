@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://slimbob413.github.io/replot-news-hub/sitemap.xml
